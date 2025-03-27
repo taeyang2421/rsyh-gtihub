@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title> Rsyhmkff </title>
+        <link rel="icon" href="hr.png">
+    </head>
+
+<body>
+
+<div class="main">
+    <div class="navbar">
+        <label class="logo">Rsyhmkff_Songs</label>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="lagu.html">Song</a></li>
+            <li><a href="#">Random</a></li>
+            <li><a href="Jurnal.html">Jurnal</a></li>
+            <li><a href="about us.html">About</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1> WELCOME </h1>
+        <img src="koceng.jpg">
+    </div>
+    <div class="paragraph">
+        <p>This is my web ya gess.. Dibuat karena akoh gabut (wok)</p>
+    </div>
+</div>
+    
+</body>
+</html>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(guwe2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+
+.content {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-evenly;
+}
+img {
+    border-radius: 50%;
+    width: 250px;
+    filter: drop-shadow(6px 8px 50px white);
+}
+.content h1 {
+    font-size: 80px;
+    margin-top: 80px;
+    filter: drop-shadow(6px 7px 8px rgb(165, 164, 164));
+}
+.paragraph {
+    position: absolute;
+    right: 53%;
+    top: 55%;
+    font-weight: 100;
+    line-height: 25px;
+    color: white;
+}
+</style>
